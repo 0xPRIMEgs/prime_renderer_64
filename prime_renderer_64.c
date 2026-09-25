@@ -8,6 +8,7 @@ void beginQuads(){
 
     // TEXTURE * SHADE
     rdpq_mode_combiner(RDPQ_COMBINER_TEX_SHADE);
+    rdpq_mode_blender(RDPQ_BLENDER_MULTIPLY);
 }
 
 float tex_w = 16;
